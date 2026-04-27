@@ -1,0 +1,14 @@
+{
+  "name": "ui-responsive",
+  "version": "0.1.0",
+  "description": "Advisory responsive-design coach for Claude Code — flags non-responsive patterns post-write, never blocks",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "license": "ISC",
+  "author": "xiaolai"
+}

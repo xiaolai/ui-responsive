@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-plugin-marketplace.json",
+  "name": "ui-responsive",
+  "owner": {
+    "name": "xiaolai"
+  },
+  "plugins": [
+    {
+      "name": "ui-responsive",
+      "source": ".",
+      "description": "Advisory responsive-design coach — flags non-responsive patterns post-write; never blocks tool calls",
+      "version": "0.1.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "license": "ISC",
+      "keywords": ["responsive", "css", "media-queries", "viewport", "breakpoints", "advisory"],
+      "category": "developer-tools"
+    }
+  ]
+}
