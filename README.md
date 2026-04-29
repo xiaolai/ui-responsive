@@ -34,6 +34,8 @@ This is the inverse of `ui-tokenize`'s rewrite-first stance, on purpose. Same in
 claude plugin install ui-responsive@xiaolai --scope project
 ```
 
+> **Install fails with "Plugin not found in marketplace 'xiaolai'"?** Your local marketplace clone is stale. Run `claude plugin marketplace update xiaolai` and retry — `plugin install` does not auto-refresh.
+
 ### Configure (optional)
 
 ```
