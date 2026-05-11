@@ -1,5 +1,7 @@
 # ui-responsive
 
+[![Validated by NLPM](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xiaolai/ui-responsive/main/nlpm-badge.json)](https://github.com/xiaolai/ui-responsive/blob/main/nlpm-badge.json)
+
 A Claude Code plugin that flags non-responsive CSS patterns as **advisory context**, not as a blocker. Sibling to `ui-tokenize`; deliberately the inverse stance.
 
 ## What
