@@ -4,6 +4,9 @@
   "owner": {
     "name": "xiaolai"
   },
+  "metadata": {
+    "description": "ui-responsive — advisory responsive-design coach that flags non-responsive patterns, by xiaolai"
+  },
   "plugins": [
     {
       "name": "ui-responsive",
