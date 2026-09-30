@@ -1,6 +1,6 @@
 {
   "name": "ui-responsive",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Advisory responsive-design coach — flags non-responsive patterns post-write; never blocks tool calls",
   "author": {
     "name": "xiaolai"
