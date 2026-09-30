@@ -19,7 +19,7 @@ claude plugin install ui-responsive@xiaolai --scope project
 Configure once (optional):
 
 ```
-/responsive:init
+/ui-responsive:init
 ```
 
 This creates `.responsive/config.json` with default breakpoints (640 / 768 / 1024 / 1280). The plugin runs fine without it — defaults are sensible.
@@ -71,4 +71,4 @@ In these cases, ignore the advisory. The plugin won't penalize you for it; it wi
 
 ## Audit awareness
 
-`/responsive:audit` is descriptive: it tells you what would have been flagged across the codebase. Coverage statistic (`stylesheets with @media` ratio) is informational only — never gates by default. Treat it as a trend, not a target.
+`/ui-responsive:audit` is descriptive: it tells you what would have been flagged across the codebase. Coverage statistic (`stylesheets with @media` ratio) is informational only — never gates by default. Treat it as a trend, not a target.

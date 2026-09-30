@@ -106,8 +106,8 @@ Same surface set as `ui-tokenize` for v0.1:
 | Where | Shape |
 |---|---|
 | PostToolUse hook | `{ hookSpecificOutput: { hookEventName: "PostToolUse", additionalContext: "<finding report>" } }` — never deny |
-| `/responsive:audit --json` | `{ mode, filesScanned, findings: [{file, line, check, severity, suggestion}], coverage: { mediaQueriesPerFile } }` |
-| `/responsive:audit --markdown` | grouped tables: per-check, per-file |
+| `/ui-responsive:audit --json` | `{ mode, filesScanned, findings: [{file, line, check, severity, suggestion}], coverage: { mediaQueriesPerFile } }` |
+| `/ui-responsive:audit --markdown` | grouped tables: per-check, per-file |
 | MCP `responsive__check_file` | structured finding list for one file |
 
 ## Severity

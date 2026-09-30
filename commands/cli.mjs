@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Unified CLI for /responsive:* slash commands.
+// Unified CLI for /ui-responsive:* slash commands.
 // Subcommands: init, audit, catalog.
 
 import { existsSync, mkdirSync, readFileSync, readdirSync } from 'node:fs';
@@ -58,7 +58,7 @@ async function cmdInit(_rest) {
   log('  • list mobile-targeted file globs in `mobileSurfaces` (escalates 100vh from info → warn there)');
   log('  • adjust `minWidthThreshold` (px) for the fixed-width check');
   log('');
-  log('Next: /responsive:catalog to confirm; /responsive:audit to scan.');
+  log('Next: /ui-responsive:catalog to confirm; /ui-responsive:audit to scan.');
 }
 
 // --------------------------------------------------------------------------------

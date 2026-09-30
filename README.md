@@ -41,7 +41,7 @@ claude plugin install ui-responsive@xiaolai --scope project
 ### Configure (optional)
 
 ```
-/responsive:init
+/ui-responsive:init
 ```
 
 Creates `.responsive/config.json` with default breakpoints (640 / 768 / 1024 / 1280). Edit it to match your design system, list mobile-targeted file globs in `mobileSurfaces`, or adjust the C3 threshold:
@@ -64,9 +64,9 @@ After install, every `Write`/`Edit`/`MultiEdit` to a stylesheet is scanned post-
 
 | Command | Purpose |
 |---|---|
-| `/responsive:catalog` | Print the configured breakpoint catalog |
-| `/responsive:audit [--changed-only\|--full-repo] [--baseline <ref>] [--json\|--markdown]` | Scan; advisory by default |
-| `/responsive:audit --strict [--severity warn\|concern]` | CI mode — exits non-zero on findings at or above the severity floor |
+| `/ui-responsive:catalog` | Print the configured breakpoint catalog |
+| `/ui-responsive:audit [--changed-only\|--full-repo] [--baseline <ref>] [--json\|--markdown]` | Scan; advisory by default |
+| `/ui-responsive:audit --strict [--severity warn\|concern]` | CI mode — exits non-zero on findings at or above the severity floor |
 
 ### Severity
 

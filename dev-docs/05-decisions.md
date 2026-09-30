@@ -32,7 +32,7 @@ Same pattern as ui-tokenize R-08. Pure Node ESM, zero runtime deps. AST scanners
 
 ## D-004 — Per-PID NDJSON ledger; same shape as ui-tokenize
 
-Reuse the proven concurrency-free pattern: `<root>/.responsive/ledger/<pid>.ndjson` per-process append; compaction at SessionStart and `/responsive:metrics`.
+Reuse the proven concurrency-free pattern: `<root>/.responsive/ledger/<pid>.ndjson` per-process append; compaction at SessionStart and `/ui-responsive:metrics`.
 
 **Why:** ui-tokenize R-13 settled this pattern after Codex audit critique #11; no need to re-litigate. Different event types (`finding-surfaced`, `finding-acknowledged`) but same file shape and locking discipline.
 

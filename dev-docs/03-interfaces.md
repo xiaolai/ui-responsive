@@ -58,7 +58,7 @@ If catalog is absent, the text says so explicitly so the agent doesn't make up n
 
 ## 3. Audit JSON
 
-`/responsive:audit --json`:
+`/ui-responsive:audit --json`:
 
 ```json
 {

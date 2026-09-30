@@ -11,7 +11,7 @@ Print the breakpoint catalog ui-responsive uses. If `.responsive/config.json` is
    node "${CLAUDE_PLUGIN_ROOT}/commands/cli.mjs" catalog
    ```
 2. **Show the output verbatim** so the user sees breakpoint names + values, the configured `mobileSurfaces` globs, and the C3 threshold. If the CLI exits non-zero unexpectedly (e.g. malformed `.responsive/config.json`), surface stderr verbatim and stop.
-3. **Recommend `/responsive:init`** if the user is on the default catalog and wants to customize.
+3. **Recommend `/ui-responsive:init`** if the user is on the default catalog and wants to customize.
 
 ## Output format
 

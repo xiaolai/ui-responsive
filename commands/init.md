@@ -11,7 +11,7 @@ Create the ui-responsive config file at `.responsive/config.json` so the plugin 
    node "${CLAUDE_PLUGIN_ROOT}/commands/cli.mjs" init
    ```
 2. **Surface the result to the user** verbatim. If the config already exists, the CLI says so and exits — do not overwrite. If the CLI exits non-zero unexpectedly (any case other than the existing-config message), surface stderr verbatim and stop.
-3. **Suggest next steps:** `/responsive:catalog` to verify the breakpoints are right; `/responsive:audit` to scan the codebase.
+3. **Suggest next steps:** `/ui-responsive:catalog` to verify the breakpoints are right; `/ui-responsive:audit` to scan the codebase.
 
 ## Output format
 
