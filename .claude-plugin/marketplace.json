@@ -5,19 +5,26 @@
     "name": "xiaolai"
   },
   "metadata": {
-    "description": "ui-responsive — advisory responsive-design coach that flags non-responsive patterns, by xiaolai"
+    "description": "ui-responsive \u2014 advisory responsive-design coach that flags non-responsive patterns, by xiaolai"
   },
   "plugins": [
     {
       "name": "ui-responsive",
       "source": ".",
-      "description": "Advisory responsive-design coach — flags non-responsive patterns post-write; never blocks tool calls",
-      "version": "0.1.3",
+      "description": "Advisory responsive-design coach \u2014 flags non-responsive patterns post-write; never blocks tool calls",
+      "version": "0.1.4",
       "author": {
         "name": "xiaolai"
       },
       "license": "ISC",
-      "keywords": ["responsive", "css", "media-queries", "viewport", "breakpoints", "advisory"],
+      "keywords": [
+        "responsive",
+        "css",
+        "media-queries",
+        "viewport",
+        "breakpoints",
+        "advisory"
+      ],
       "category": "developer-tools"
     }
   ]

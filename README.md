@@ -93,3 +93,10 @@ See `dev-docs/02-spec.md` for the architectural commitment, the four checks, and
 ## License
 
 [ISC License](LICENSE) — free to use, copy, modify, and distribute.
+
+## What findings do not establish
+
+A file can be responsive through container queries, flexible layout or shared rules without a local
+media query. Treat findings as leads, then check representative browser widths, overflow and touch
+targets. Keep heuristic rules advisory. Regression fixtures must include valid container-query and
+fluid layouts alongside real failures; a finding count is not a quality metric.

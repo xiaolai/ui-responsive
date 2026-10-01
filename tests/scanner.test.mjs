@@ -148,3 +148,8 @@ test('Exempt: tokens.json returns no findings', () => {
   const f = scan(css, '/proj/tokens.json', { knownBreakpoints: new Set() });
   assert.equal(f.length, 0);
 });
+
+test('C4: container queries avoid the no-responsive-query warning', () => {
+ const findings = scan('.panel { width: 900px; } @container (width < 600px) { .panel { width: 100%; } }', 'x.css', {knownBreakpoints: KNOWN});
+ assert.equal(findings.filter(x => x.check === 'C4').length, 0);
+});
